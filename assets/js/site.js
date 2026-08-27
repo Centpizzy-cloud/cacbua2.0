@@ -41,4 +41,45 @@
 			}
 		});
 	}
+
+	// Small toast for controls that aren't built yet (site search, language
+	// switch). Clicking used to do nothing at all, which reads as broken —
+	// this makes clear it's a planned feature, not a bug.
+	function showComingSoonToast(message) {
+		var existing = document.querySelector('.coming-soon-toast');
+		if (existing) { existing.remove(); }
+		var toast = document.createElement('div');
+		toast.className = 'coming-soon-toast';
+		toast.setAttribute('role', 'status');
+		toast.textContent = message;
+		document.body.appendChild(toast);
+		window.setTimeout(function () {
+			toast.classList.add('is-hiding');
+			window.setTimeout(function () { toast.remove(); }, 200);
+		}, 2400);
+	}
+
+	var searchToggle = document.querySelector('.search-toggle');
+	if (searchToggle) {
+		searchToggle.addEventListener('click', function () {
+			showComingSoonToast('Site search — coming soon.');
+		});
+	}
+
+	var langLink = document.querySelector('.lang-link');
+	if (langLink) {
+		langLink.addEventListener('click', function (e) {
+			e.preventDefault();
+			showComingSoonToast('中文版 — coming soon.');
+		});
+	}
+
+	// Research library search — no backend wired up yet.
+	var librarySearch = document.querySelector('.library-search');
+	if (librarySearch) {
+		librarySearch.addEventListener('submit', function (e) {
+			e.preventDefault();
+			showComingSoonToast('Research search — coming soon. Browse topics below in the meantime.');
+		});
+	}
 })();

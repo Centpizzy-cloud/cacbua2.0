@@ -702,3 +702,13 @@ p { margin: 0; }
 .source-group ul { margin: 0; padding-left: 20px; }
 .source-group li { margin: 8px 0; color: var(--slate); font-size: 14.5px; line-height: 1.6; }
 .source-group a { color: var(--teal-700); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+
+/* "Coming soon" toast — for controls with no backend yet (search, language switch) */
+.coming-soon-toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(0);
+  background: #1a1f1c; color: #fff; padding: 12px 20px; border-radius: 999px;
+  font-size: 14px; font-weight: 600; letter-spacing: .01em; box-shadow: 0 8px 24px rgba(0,0,0,.25);
+  z-index: 9999; opacity: 1; transition: opacity .2s ease, transform .2s ease; white-space: nowrap;
+}
+.coming-soon-toast.is-hiding { opacity: 0; transform: translateX(-50%) translateY(8px); }
+@media (max-width: 480px) { .coming-soon-toast { white-space: normal; text-align: center; width: calc(100% - 48px); } }
