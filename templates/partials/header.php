@@ -10,7 +10,7 @@ $header_variant = $header_variant ?? 'transparent';
 ?>
 <header class="site-header<?php echo $header_variant === 'solid' ? ' solid' : ''; ?>">
 	<div class="container site-header-bar">
-		<a class="site-logo" href="index.php">CACBUA<span>.</span></a>
+		<a class="site-logo" href="index.php"><img src="assets/images/approved/brand/cacbua-logo.jpg" srcset="assets/images/approved/brand/cacbua-logo.jpg 300w, assets/images/approved/brand/cacbua-logo@2x.jpg 768w" sizes="150px" alt="CACBUA — China &amp; Africa Cross-Border United Association" width="150" height="78"></a>
 
 		<nav class="primary-nav" aria-label="Primary">
 			<ul>
@@ -34,7 +34,7 @@ $header_variant = $header_variant ?? 'transparent';
 
 <div class="mobile-nav" id="mobile-nav" hidden>
 	<div class="mobile-nav-top">
-		<span class="site-logo">CACBUA<span>.</span></span>
+		<span class="site-logo"><img src="assets/images/approved/brand/cacbua-logo.jpg" alt="CACBUA" width="150" height="78"></span>
 		<button class="close-menu" type="button" aria-label="Close menu" data-menu-close>&times;</button>
 	</div>
 	<ul>

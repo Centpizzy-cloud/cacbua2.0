@@ -116,8 +116,11 @@ p { margin: 0; }
   border-bottom: 1px solid rgba(255,255,255,.2);
 }
 .site-header-bar { display: flex; align-items: center; gap: 34px; min-height: 100px; padding: 18px 0; }
-.site-logo { font-size: 21px; font-weight: 900; letter-spacing: -.01em; color: #fff; text-decoration: none; flex: 0 0 auto; }
-.site-logo span { color: var(--accent); }
+.site-logo {
+  display: inline-flex; align-items: center; flex: 0 0 auto; text-decoration: none;
+  background: #fff; padding: 6px 10px; border-radius: 8px; line-height: 0;
+}
+.site-logo img { display: block; height: 40px; width: auto; }
 .primary-nav { display: flex; align-items: center; gap: 30px; margin-left: 8px; }
 .primary-nav ul { list-style: none; display: flex; gap: 27px; margin: 0; padding: 0; }
 .primary-nav a {

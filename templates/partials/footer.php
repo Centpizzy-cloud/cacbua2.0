@@ -1,7 +1,7 @@
 <footer class="site-footer">
 	<div class="container footer-grid">
 		<div class="footer-brand">
-			<span class="site-logo">CACBUA<span>.</span></span>
+			<span class="site-logo"><img src="assets/images/approved/brand/cacbua-logo.jpg" alt="CACBUA" width="150" height="78"></span>
 			<p>The World and Africa Cross-Border United Association — supporting economic development, policy understanding, cultural exchange, and practical institutional cooperation between China and Africa.</p>
 		</div>
 		<div>

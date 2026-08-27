@@ -8,6 +8,21 @@ Legend for status: `VERIFIED / READY`, `CACBUA EXISTING CONTENT`, `RESEARCHED EX
 
 ## In use — Homepage Phase 1
 
+### 0. Site logo (header, mobile menu, footer)
+
+| Field | Value |
+|---|---|
+| Filename | `assets/images/approved/brand/cacbua-logo.jpg` (300×155, header/footer display size), `cacbua-logo@2x.jpg` (768×397, retina `srcset`) |
+| Description | Official CACBUA logo — green wordmark over a globe graphic highlighting Africa, with the "China & Africa Cross-Border United Association" tagline |
+| Creator | CACBUA (own brand asset) |
+| Original source | `wp-content/uploads/2023/01/CACBUA-rectangle-300x155.jpg` and `-768x397.jpg`, the same files already used as the real site logo on production/Local WordPress |
+| License | CACBUA's own content |
+| Attribution required | No |
+| Modification permitted | Yes — displayed inside a small white rounded badge (`.site-logo` CSS) so it reads cleanly on the dark header/footer background; no cropping or recolor of the artwork itself |
+| Suggested use | Header brand link, mobile-menu header, footer brand block |
+| Date accessed | Aug 27, 2026 |
+| **Status** | **CACBUA EXISTING CONTENT** — this is CACBUA's real, already-in-use logo, not a placeholder. Fixes an earlier gap where the prototype shipped with a plain "CACBUA." text wordmark instead of the real logo image (the text version was never logged in this register, which was itself an oversight — flagging it here now). |
+
 ### 1. Hero — delegation photo
 
 | Field | Value |
