@@ -86,6 +86,70 @@ Legend for status: `VERIFIED / READY`, `CACBUA EXISTING CONTENT`, `RESEARCHED EX
 | Date accessed | Aug 26, 2026 (copied from production uploads into this project) |
 | **Status** | **VERIFIED / READY** — this whole event archive was explicitly confirmed by the client earlier in this project ("we have verified all these"). Different status from the hero/Opportunities images above, which still need an ownership check. |
 
+### 5. Opportunities — "Nigeria → China Opportunities" card
+
+| Field | Value |
+|---|---|
+| Filename | `assets/images/approved/opportunities/nigeria-original.jpg` (2670×4000, untouched download), `nigeria-web.jpg` / `.webp` (900×570, cropped) |
+| Description | Lagos Island skyline — dusk view over mixed low- and high-rise buildings |
+| Creator | Emmanuel Ikwuegbu |
+| Original source | https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-t96rE_EZffE |
+| Original URL | https://unsplash.com/photos/a-view-of-a-city-with-tall-buildings-t96rE_EZffE |
+| License | Unsplash License — independently confirmed by opening the photo's license page directly (not assumed) |
+| Attribution required | No (not required by Unsplash License; photographer credited here anyway) |
+| Modification permitted | Yes — cropped from portrait to the card's landscape ratio |
+| Suggested use | Opportunities: Nigeria → China Opportunities |
+| Date accessed | Aug 27, 2026 |
+| **Status** | **VERIFIED / READY** |
+
+### 6. Opportunities — "Agriculture" card
+
+| Field | Value |
+|---|---|
+| Filename | `assets/images/approved/opportunities/agriculture-original.jpg` (7008×4672, untouched download), `agriculture-web.jpg` / `.webp` (900×570, cropped) |
+| Description | Joyful group of farmers harvesting cassava in a field, Anambra, Nigeria |
+| Creator | Victor Chijioke |
+| Original source | https://www.pexels.com/photo/joyful-african-farmers-harvesting-cassava-in-nigeria-36846177 |
+| Original URL | https://www.pexels.com/photo/joyful-african-farmers-harvesting-cassava-in-nigeria-36846177 |
+| License | Pexels License — independently confirmed by opening the photo's license page directly (not assumed) |
+| Attribution required | No (not required by Pexels License; photographer credited here anyway) |
+| Modification permitted | Yes — cropped to the card's landscape ratio |
+| Suggested use | Opportunities: Agriculture |
+| Date accessed | Aug 27, 2026 |
+| **Status** | **VERIFIED / READY** |
+
+### 7. Opportunities — "Investment & Projects" card
+
+| Field | Value |
+|---|---|
+| Filename | `assets/images/approved/opportunities/investment-original.jpg` (7953×5305, untouched download), `investment-web.jpg` / `.webp` (900×570, cropped) |
+| Description | Nairobi cityscape skyline at daytime |
+| Creator | Ken Mwaura |
+| Original source | https://www.pexels.com/photo/skyline-view-of-nairobi-cityscape-at-daytime-29069344 |
+| Original URL | https://www.pexels.com/photo/skyline-view-of-nairobi-cityscape-at-daytime-29069344 |
+| License | Pexels License — independently confirmed by opening the photo's license page directly (not assumed) |
+| Attribution required | No (not required by Pexels License; photographer credited here anyway) |
+| Modification permitted | Yes — cropped to the card's landscape ratio |
+| Suggested use | Opportunities: Investment & Projects |
+| Date accessed | Aug 27, 2026 |
+| **Status** | **VERIFIED / READY** |
+
+### 8. Opportunities — "Renewable Energy & Emerging Industries" card
+
+| Field | Value |
+|---|---|
+| Filename | `assets/images/approved/opportunities/renewable-energy-original.jpg` (5120×3840, untouched download), `renewable-energy-web.jpg` / `.webp` (900×570, cropped) |
+| Description | Rooftop solar panel installation on a red tile roof, Nelspruit, South Africa |
+| Creator | Sergio Martins |
+| Original source | https://unsplash.com/photos/solar-panels-on-a-red-tile-roof-1UtCVFoZwn4 |
+| Original URL | https://unsplash.com/photos/solar-panels-on-a-red-tile-roof-1UtCVFoZwn4 |
+| License | Unsplash License — independently confirmed by opening the photo's license page directly (not assumed) |
+| Attribution required | No (not required by Unsplash License; photographer credited here anyway) |
+| Modification permitted | Yes — cropped to the card's landscape ratio |
+| Suggested use | Opportunities: Renewable Energy & Emerging Industries |
+| Date accessed | Aug 27, 2026 |
+| **Status** | **VERIFIED / READY** |
+
 ---
 
 ## Explicitly rejected — not used, do not use
@@ -103,16 +167,7 @@ Legend for status: `VERIFIED / READY`, `CACBUA EXISTING CONTENT`, `RESEARCHED EX
 
 ## Research-approved, not yet downloaded (technical limitation this session)
 
-The photography research pass (see the investigation report, Aug 26, 2026) identified 10 fully license-verified images (Unsplash License / Pexels License — confirmed by opening each license page directly) that are safe to use immediately. **They are not yet physically present in this project.** This sandbox has no general internet access for binary file downloads (outbound requests to unsplash.com, pexels.com, and even CDN subdomains are blocked at the network level), and the available web-fetch tool does not relay binary image data. Once these are manually downloaded (by opening each link in a real browser and saving the file, or by granting broader network access), they should be dropped into `assets/images/approved/<category>/` and this register updated. Recommended assignments for the next pass:
-
-| Opportunities card | Candidate image | Source | License |
-|---|---|---|---|
-| Nigeria → China Opportunities | Lagos Island skyline | unsplash.com/photos/a-view-of-a-city-with-tall-buildings-t96rE_EZffE (Emmanuel Ikwuegbu) | Unsplash License |
-| Agriculture | Cassava harvest, Anambra, Nigeria | pexels.com/photo/joyful-african-farmers-harvesting-cassava-in-nigeria-36846177 (Victor Chijioke) | Pexels License |
-| Investment & Projects | Nairobi skyline | pexels.com/photo/skyline-view-of-nairobi-cityscape-at-daytime-29069344 (Ken Mwaura) | Pexels License |
-| Renewable Energy / Emerging Industries | Rooftop solar, Nelspruit, South Africa | unsplash.com/photos/solar-panels-on-a-red-tile-roof-1UtCVFoZwn4 (Sergio Martins) | Unsplash License |
-
-All four are, per the research, genuinely African and correctly matched to their card's geography — no misleading substitution needed once downloaded. Until then, these four cards use a plain teal/orange gradient card treatment with no photo, rather than an unlicensed placeholder image.
+The photography research pass (see the investigation report, Aug 26, 2026) identified 10 fully license-verified images (Unsplash License / Pexels License — confirmed by opening each license page directly) that are safe to use immediately. The four Opportunities-card candidates from that batch have since been downloaded and are now logged under "In use — Homepage Phase 1" (entries 5–8) above. The remaining candidates from that research pass are not yet physically present in this project; once downloaded, they should be dropped into `assets/images/approved/<category>/` and this register updated.
 
 **Explicitly excluded from any future pass:** all four World Bank Photo Collection (Flickr) candidates identified in research — confirmed CC BY-NC-ND (non-commercial, no derivatives), which does not clear CACBUA's use and forbids the cropping this design requires. Per your instruction, these are not used and should not be reconsidered without a specific written okay.
 
