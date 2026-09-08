@@ -23,9 +23,10 @@
 				        assets/images/approved/hero/hero-web-1200.jpg 1200w,
 				        assets/images/approved/hero/hero-web-1920.jpg 1920w"
 				sizes="(max-width: 900px) 100vw, 55vw"
-				alt="CACBUA delegation meeting, part of the association's ongoing China–Africa institutional engagement"
+				alt="CACBUA leadership meeting with Nigerian President Bola Tinubu"
 				width="1200" height="900"
 			>
+			<p class="hero-media-caption">CACBUA leadership meeting with Nigerian President Bola Tinubu, part of efforts to strengthen Nigeria&ndash;China relations through investment and business cooperation.</p>
 		</div>
 	</div>
 </section>

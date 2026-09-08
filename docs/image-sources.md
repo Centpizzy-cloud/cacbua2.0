@@ -38,6 +38,7 @@ Legend for status: `VERIFIED / READY`, `CACBUA EXISTING CONTENT`, `RESEARCHED EX
 | Suggested use | Homepage hero |
 | Date accessed | Aug 26, 2026 (copied from prototype folder into this project) |
 | **Status** | **CLIENT APPROVAL REQUIRED** — need CACBUA to confirm this is their own photo (or properly licensed) before it can be used on the live/public site. Used in this prototype only because it's the identity CACBUA has already approved directionally; not cleared for production. |
+| **Caption context (Sept 8, 2026)** | Confirmed by project team: the meeting shown is CACBUA leadership with Nigerian President Bola Tinubu, part of efforts to strengthen Nigeria–China relations through investment and business cooperation. No exact date supplied. This context is now reflected in the on-page caption (see `templates/sections/hero.php`). This confirms *what* the photo depicts, but is not itself a rights/publish clearance — that still needs to come from CACBUA leadership (the subject of the photo), per the status above. |
 
 ### 2. Opportunities — "Africa → China Market Access" card
 
