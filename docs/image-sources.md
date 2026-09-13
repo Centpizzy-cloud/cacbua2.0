@@ -153,6 +153,22 @@ Legend for status: `VERIFIED / READY`, `CACBUA EXISTING CONTENT`, `RESEARCHED EX
 
 ---
 
+### 9. Leadership — Hon. Geoffrey Okpozae portrait
+
+| Field | Value |
+|---|---|
+| Filename | `assets/images/approved/leadership/geoffrey-okpozae-original.jpeg` (300×300, unchanged duplicate) |
+| Description | Portrait of Hon. Geoffrey Okpozae, Founder and President of CACBUA |
+| Creator | Not recorded in the restored media metadata |
+| Original source | `/Users/greentinz/Local Sites/cacbua-local/app/public/wp-content/uploads/2023/02/IMG_5971-300x300-1.jpeg` |
+| Provenance | The restored old `/outlook/` Elementor page references this exact media file as the founder portrait background |
+| License | CACBUA's own legacy-site content; ownership confirmation should remain with CACBUA's publication approval process |
+| Attribution required | Not indicated in the source metadata |
+| Modification permitted | Working duplicate only; source file remains untouched |
+| Suggested use | Founder & President profile |
+| Date accessed | Sep 13, 2026 |
+| **Status** | **VERIFIED SOURCE / READY FOR PROTOTYPE** — actual old-page asset, not a screenshot crop; available source resolution is 300×300 |
+
 ## Explicitly rejected — not used, do not use
 
 ### FOCAC 2024 Beijing Summit group photo

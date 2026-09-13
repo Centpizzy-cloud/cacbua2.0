@@ -37,8 +37,9 @@ require __DIR__ . '/../partials/header.php';
 
 		<div class="events-grid">
 			<?php foreach ( $events['list'] as $event ) : ?>
+				<?php $event_image_size = @getimagesize( __DIR__ . '/../../' . $event['image'] ); ?>
 				<article class="event-card"<?php echo ! empty( $event['slug'] ) ? ' id="' . htmlspecialchars( $event['slug'] ) . '"' : ''; ?>>
-					<img src="<?php echo htmlspecialchars( $event['image'] ); ?>" alt="<?php echo htmlspecialchars( $event['title'] ); ?>" loading="lazy">
+					<img src="<?php echo htmlspecialchars( $event['image'] ); ?>" alt="<?php echo htmlspecialchars( $event['title'] ); ?>"<?php echo $event_image_size ? ' width="' . (int) $event_image_size[0] . '" height="' . (int) $event_image_size[1] . '"' : ''; ?> loading="lazy" decoding="async">
 					<div class="event-card-body">
 						<span class="event-date"><?php echo htmlspecialchars( $event['date'] ); ?></span>
 						<h3><?php echo htmlspecialchars( $event['title'] ); ?></h3>
@@ -61,9 +62,10 @@ require __DIR__ . '/../partials/header.php';
 			<p>Additional photography from CACBUA events, pending final captioning.</p>
 		</div>
 		<div class="events-gallery">
-			<?php foreach ( $events['gallery'] as $photo ) : ?>
-				<a href="<?php echo htmlspecialchars( $photo ); ?>" target="_blank" rel="noopener">
-					<img src="<?php echo htmlspecialchars( $photo ); ?>" alt="" loading="lazy">
+			<?php foreach ( $events['gallery'] as $index => $photo ) : ?>
+				<?php $gallery_image_size = @getimagesize( __DIR__ . '/../../' . $photo ); ?>
+				<a href="<?php echo htmlspecialchars( $photo ); ?>" target="_blank" rel="noopener" aria-label="<?php echo htmlspecialchars( sprintf( 'View full-size photo %d from CACBUA events', $index + 1 ) ); ?>">
+					<img src="<?php echo htmlspecialchars( $photo ); ?>" alt=""<?php echo $gallery_image_size ? ' width="' . (int) $gallery_image_size[0] . '" height="' . (int) $gallery_image_size[1] . '"' : ''; ?> loading="lazy" decoding="async">
 				</a>
 			<?php endforeach; ?>
 		</div>

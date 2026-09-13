@@ -86,10 +86,11 @@ require __DIR__ . '/../partials/header.php';
 			<article><span class="num">03</span><div><h3>Research community</h3><p>Analysts, universities, specialists, and knowledge partners.</p></div></article>
 			<article><span class="num">04</span><div><h3>Exchange partners</h3><p>Event, education, culture, media, and professional networks.</p></div></article>
 		</div>
-		<div class="content-placeholder-card" style="margin-top:26px">
-			<span class="content-status">Client content required</span>
-			<h3>Leadership and governance</h3>
-			<p>Leadership names, roles, biographies, and governance structure still require formal CACBUA confirmation before this can be published.</p>
+		<div class="content-placeholder-card leadership-card" style="margin-top:26px">
+			<p class="eyebrow">Leadership</p>
+			<h3>Meet CACBUA's Founder &amp; President</h3>
+			<p>Read the verified profile of Hon. Geoffrey Okpozae. His full biography and leadership vision remain clearly marked for client-supplied content.</p>
+			<a class="button button-ghost-dark" href="founder.php">View Founder profile</a>
 		</div>
 	</div>
 </section>

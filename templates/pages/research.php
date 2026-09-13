@@ -64,7 +64,7 @@ require __DIR__ . '/../partials/header.php';
 			<?php foreach ( $publications as $pub ) : ?>
 				<article class="research-feature-card">
 					<div>
-						<span class="content-status dark"><?php echo htmlspecialchars( strtoupper( $pub['category'] ) ); ?></span>
+						<span class="content-status"><?php echo htmlspecialchars( strtoupper( $pub['category'] ) ); ?></span>
 						<h3><?php echo htmlspecialchars( $pub['title'] ); ?></h3>
 						<p class="card-type"><?php echo htmlspecialchars( $pub['subtitle'] ); ?></p>
 						<p><?php echo htmlspecialchars( $pub['summary'] ); ?></p>

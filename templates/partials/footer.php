@@ -8,6 +8,7 @@
 			<h4>Explore</h4>
 			<ul>
 				<li><a href="about.php">About</a></li>
+				<li><a href="founder.php">Leadership</a></li>
 				<li><a href="research.php">Research</a></li>
 				<li><a href="cooperation.php">Cooperation</a></li>
 			</ul>

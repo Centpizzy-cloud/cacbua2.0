@@ -44,7 +44,7 @@ $header_variant = $header_variant ?? 'transparent';
 		<li><a href="news.php">News &amp; Insights</a></li>
 		<li><a href="events.php">Events</a></li>
 		<li><a href="resources.php">Resources</a></li>
-		<li><a href="#" aria-label="中文版本（Phase 2）">中文</a></li>
+		<li><a class="lang-link" href="#" aria-label="中文版本（Phase 2）">中文</a></li>
 		<li><a href="contact.php">Partner With Us</a></li>
 	</ul>
 </div>

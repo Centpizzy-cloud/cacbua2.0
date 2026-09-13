@@ -26,5 +26,6 @@
 				<?php endforeach; ?>
 			</ul>
 		</details>
+		<a class="button button-outline" style="margin-top:20px" href="research.php">Explore CACBUA research →</a>
 	</div>
 </section>

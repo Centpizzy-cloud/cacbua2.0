@@ -9,5 +9,6 @@
 		<p class="eyebrow" style="color:var(--accent-dark)">Leadership perspective</p>
 		<blockquote>&ldquo;Our service is to assist cross-border development in both countries.&rdquo;</blockquote>
 		<p class="quote-credit">Geoffrey Okpozae<span>Founder &amp; President, CACBUA</span></p>
+		<a class="button button-ghost-dark" href="founder.php">Meet the Founder</a>
 	</div>
 </section>

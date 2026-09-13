@@ -1,0 +1,7 @@
+# CACBUA redesign — PRE-PRODUCTION SAFETY FILE
+# Replace with the approved production rules only during the controlled launch.
+User-agent: *
+Disallow: /
+
+# Production sitemap prepared for validation; do not submit before launch.
+Sitemap: https://cacbua.org/sitemap.xml

@@ -9,6 +9,7 @@
  */
 return array(
 	array(
+		'slug'    => 'market-access',
 		'kicker'  => 'Market access',
 		'title'   => 'Africa → China Market Access',
 		'fact'    => 'Zero-tariff treatment now covers <strong>53 African countries</strong> with diplomatic ties to China, effective since 1 May 2026.',
@@ -18,6 +19,7 @@ return array(
 		'confidence' => 'STRONG',
 	),
 	array(
+		'slug'    => 'nigeria-china',
 		'kicker'  => 'Nigeria',
 		'title'   => 'Nigeria → China Opportunities',
 		'fact'    => 'Nigeria–China trade rose <strong>35% to $18B</strong> in H1 2026 following the zero-tariff rollout; Chinese imports from Nigeria alone surged 80% to $2.3B.',
@@ -27,6 +29,7 @@ return array(
 		'confidence' => 'MODERATE',
 	),
 	array(
+		'slug'    => 'agriculture',
 		'kicker'  => 'Agriculture',
 		'title'   => 'Agriculture',
 		'fact'    => 'Dried chilies, coffee, cashews, and other African agricultural goods gained new unified duty-free access to the Chinese market.',
@@ -36,6 +39,7 @@ return array(
 		'confidence' => 'STRONG',
 	),
 	array(
+		'slug'    => 'manufacturing',
 		'kicker'  => 'Manufacturing',
 		'title'   => 'Manufacturing & Industrial Cooperation',
 		'fact'    => 'Chinese automaker Chery acquired Nissan’s former Rosslyn assembly plant near Pretoria, South Africa, targeting local EV/hybrid production from mid-2027.',
@@ -45,6 +49,7 @@ return array(
 		'confidence' => 'MODERATE-STRONG',
 	),
 	array(
+		'slug'    => 'investment-projects',
 		'kicker'  => 'Investment',
 		'title'   => 'Investment & Projects',
 		'fact'    => 'Huayou Cobalt’s $400M lithium sulphate plant at Zimbabwe’s Arcadia Mine began production in Q1 2026 — described as Africa’s first facility of its kind.',
@@ -54,6 +59,7 @@ return array(
 		'confidence' => 'MODERATE',
 	),
 	array(
+		'slug'    => 'renewable-energy',
 		'kicker'  => 'Renewable energy',
 		'title'   => 'Renewable Energy & Emerging Industries',
 		'fact'    => 'Chinese solar panel exports to Africa rose <strong>83% y/y</strong> in April 2026; African imports of Chinese panels grew 48% from 2024 to 2025.',

@@ -144,6 +144,7 @@ require __DIR__ . '/../partials/header.php';
 		</div>
 		<div class="button-group">
 			<a class="button button-primary" href="research.php">Back to Research</a>
+			<a class="button button-ghost-dark" href="opportunities.php#market-access">Explore market-access opportunities</a>
 			<a class="button button-ghost-dark" href="cooperation.php">Discuss cooperation</a>
 		</div>
 	</div>
