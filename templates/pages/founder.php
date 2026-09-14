@@ -43,12 +43,7 @@ require __DIR__ . '/../partials/header.php';
 	</section>
 
 	<section class="section soft">
-		<div class="container founder-detail-grid">
-			<article class="client-content-panel">
-				<span class="content-status">Client content required</span>
-				<h2>Biography</h2>
-				<p>CLIENT CONTENT REQUIRED</p>
-			</article>
+		<div class="container founder-detail-grid founder-detail-single">
 			<article class="client-content-panel founder-vision-panel">
 				<span class="content-status">Leadership direction</span>
 				<h2>Leadership vision and CACBUA mission</h2>

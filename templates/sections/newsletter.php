@@ -8,18 +8,13 @@
 <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
 	<div class="container newsletter-grid">
 		<div class="newsletter-copy">
-			<span class="content-status">Client approval required</span>
 			<p class="eyebrow">Stay informed</p>
-			<h2 id="newsletter-title">China–Africa Business Brief</h2>
-			<p>A short, periodic brief on China–Africa trade, tariffs, and investment developments — planned, pending CACBUA's decision on a newsletter provider.</p>
+			<h2 id="newsletter-title">Follow China–Africa developments</h2>
+			<p>Explore current updates, sourced market developments, and CACBUA insights across trade, investment, policy, and cooperation.</p>
 		</div>
-		<div>
-			<form class="newsletter-form" data-newsletter-form>
-				<label class="visually-hidden" for="newsletter-email">Email address</label>
-				<input id="newsletter-email" type="email" placeholder="you@company.com" required>
-				<button class="button button-primary" type="submit">Notify me</button>
-			</form>
-			<p class="newsletter-note" data-newsletter-feedback>This is a design preview — signup isn't connected to a live email system yet.</p>
+		<div class="button-group">
+			<a class="button button-primary" href="news.php">News &amp; Insights</a>
+			<a class="button button-ghost-dark" href="resources.php">Browse Resources</a>
 		</div>
 	</div>
 </section>

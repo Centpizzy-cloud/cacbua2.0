@@ -32,7 +32,7 @@
 	</div>
 	<div class="container footer-bottom">
 		<span>&copy; <?php echo date('Y'); ?> CACBUA — China–Africa Cross-Border United Association.</span>
-		<span>cacbua-redesign — Phase 1 prototype, not for production deployment.</span>
+		<span>Research · Connection · Cooperation</span>
 	</div>
 </footer>
 <script src="assets/js/site.js"></script>

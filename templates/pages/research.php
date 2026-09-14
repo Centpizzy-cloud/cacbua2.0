@@ -22,18 +22,6 @@ require __DIR__ . '/../partials/header.php';
 	</div>
 </section>
 
-<section class="section">
-	<div class="container">
-		<form class="library-search" role="search" action="research.php">
-			<label for="research-search">Search research</label>
-			<div>
-				<input id="research-search" name="s" type="search" placeholder="Search by title, topic, or author">
-				<button class="button button-primary" type="submit">Search</button>
-			</div>
-		</form>
-	</div>
-</section>
-
 <section class="section soft" id="topics">
 	<div class="container">
 		<div class="section-heading">
@@ -107,6 +95,7 @@ require __DIR__ . '/../partials/header.php';
 			<article><span class="num">02</span><div><h3>Evidence</h3><p>Documented sources and methodology.</p></div></article>
 			<article><span class="num">03</span><div><h3>Accountability</h3><p>Version and correction information.</p></div></article>
 		</div>
+		<a class="resource-inline-link" href="resources.php">Browse the Resource Hub →</a>
 	</div>
 </section>
 

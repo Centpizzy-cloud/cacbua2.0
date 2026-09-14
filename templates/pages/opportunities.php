@@ -39,6 +39,7 @@ require __DIR__ . '/../partials/header.php';
 			</div>
 			<p class="opportunities-disclaimer">The developments above are independently sourced context, not claims that CACBUA participated in the cited activity. Any CACBUA engagement begins only after a direct discussion and agreed scope.</p>
 			<a class="button button-ghost-dark" style="margin-top:18px" href="cooperation.php">See how CACBUA cooperates →</a>
+			<a class="resource-inline-link" href="resources.php">Browse the Resource Hub →</a>
 		</div>
 	</section>
 </main>

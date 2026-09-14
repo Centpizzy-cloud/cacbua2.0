@@ -27,7 +27,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="section-heading">
 			<p class="eyebrow">What CACBUA does</p>
 			<h2>Turning cross-border context into practical connection</h2>
-			<p>Reused verbatim from CACBUA's existing operating-model copy — same diagram already live on the production site, no new claims added.</p>
+			<p>CACBUA brings research, connection, and cooperation together to support informed cross-border engagement.</p>
 		</div>
 		<div class="cacbua-model" aria-label="CACBUA operating model">
 			<div class="model-context"><span>China–Africa context</span><small>Markets · Institutions · Policy · Culture</small></div>
@@ -89,7 +89,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="content-placeholder-card leadership-card" style="margin-top:26px">
 			<p class="eyebrow">Leadership</p>
 			<h3>Meet CACBUA's Founder &amp; President</h3>
-			<p>Read the verified profile of Hon. Geoffrey Okpozae. His full biography and leadership vision remain clearly marked for client-supplied content.</p>
+			<p>Meet Hon. Geoffrey Okpozae and explore the leadership direction guiding CACBUA’s work.</p>
 			<a class="button button-ghost-dark" href="founder.php">View Founder profile</a>
 		</div>
 	</div>
@@ -100,7 +100,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="section-heading">
 			<p class="eyebrow">Our history</p>
 			<h2>Milestones since 2019</h2>
-			<p>Verified content from CACBUA's own event archive. Items with a link jump to the matching event on the Events page.</p>
+			<p>Selected milestones from CACBUA's event archive. Follow each link to explore the related activity.</p>
 		</div>
 		<div class="pathway-list">
 			<?php foreach ( $history as $item ) : ?>

@@ -34,6 +34,12 @@ return array(
 		'canonical' => '/research/', 'type' => 'CollectionPage',
 		'breadcrumbs' => array('Research' => '/research/'),
 	),
+	'resources.php' => array(
+		'title' => 'China–Africa Trade & Business Resources | CACBUA',
+		'description' => 'Access practical CACBUA resources on China–Africa trade, market access, policy research, trade data, events, and institutional cooperation.',
+		'canonical' => '/resources/', 'type' => 'CollectionPage',
+		'breadcrumbs' => array('Resources' => '/resources/'),
+	),
 	'publication-zero-tariff-2026.php' => array(
 		'title' => "China's Zero-Tariff Policy for Africa: Export Guide | CACBUA",
 		'description' => "What China's 2026 zero-tariff expansion means for African exporters, including market-access opportunities, standards, logistics, and readiness.",

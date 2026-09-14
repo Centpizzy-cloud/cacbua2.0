@@ -1,0 +1,20 @@
+# Secrets and database exports
+*.sql
+*.sql.gz
+wp-config.php
+**/wp-config.php
+
+# Logs and diagnostics
+*.log
+error_log
+debug.log
+
+# Archives and operating-system files
+.DS_Store
+*.zip
+
+# Local editor and environment files
+.env
+.env.*
+.idea/
+.vscode/

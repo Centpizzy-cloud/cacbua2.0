@@ -55,7 +55,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="section-heading">
 			<p class="eyebrow">Direct channels</p>
 			<h2>Official contact details</h2>
-			<p>CACBUA does not yet have a working online inquiry form on this prototype — a form provider decision is pending. Until then, these are the confirmed ways to reach CACBUA directly.</p>
+			<p>Reach CACBUA directly by WhatsApp, telephone, or email, or visit the Shanghai office during the hours shown.</p>
 		</div>
 		<div class="contact-channel-grid">
 			<article class="contact-channel-card">
@@ -78,11 +78,6 @@ require __DIR__ . '/../partials/header.php';
 				<span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
 				<div><p class="contact-label">Office hours</p><h3>Monday–Friday</h3><p class="hours">9:00 AM–5:00 PM</p><p>Shanghai local time</p></div>
 			</article>
-		</div>
-		<div class="contact-pending-note">
-			<span class="content-status">Verification required</span>
-			<h3>Privacy and response details</h3>
-			<p>Expected response time, privacy wording, and inquiry-routing owners still require CACBUA confirmation before launch.</p>
 		</div>
 	</div>
 </section>

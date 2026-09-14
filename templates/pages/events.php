@@ -59,7 +59,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="section-heading" style="margin-top:70px">
 			<p class="eyebrow">From the archive</p>
 			<h2>Gallery</h2>
-			<p>Additional photography from CACBUA events, pending final captioning.</p>
+			<p>Additional photography from CACBUA events and institutional activities.</p>
 		</div>
 		<div class="events-gallery">
 			<?php foreach ( $events['gallery'] as $index => $photo ) : ?>
@@ -79,7 +79,10 @@ require __DIR__ . '/../partials/header.php';
 			<p class="eyebrow">Host or partner</p>
 			<h2>Propose an event</h2>
 		</div>
-		<div><a class="button button-primary" href="contact.php">Contact CACBUA</a></div>
+		<div class="button-group">
+			<a class="button button-primary" href="contact.php">Contact CACBUA</a>
+			<a class="button button-ghost-dark" href="resources.php">Browse Resources</a>
+		</div>
 	</div>
 </section>
 

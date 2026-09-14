@@ -1,6 +1,6 @@
-# cacbua-redesign
+# CACBUA 2.0 — Digital Platform Rebuild
 
-Phase 1 prototype of the CACBUA website redesign — **homepage only**. This is a separate, standalone project. It does not touch `cacbua.org`, its database, `cacbua-current-snapshot`, or any other baseline files.
+Internal working name for the CACBUA website redesign and rebuild. The public organization name remains **CACBUA**. This is a separate, standalone project and does not touch `cacbua.org`, its database, `cacbua-current-snapshot`, or any other baseline files.
 
 ## What this is
 
@@ -15,13 +15,11 @@ cd cacbua-redesign
 php -S localhost:8000
 ```
 
-Then open **http://localhost:8000/** in a browser. Interior nav links (About, Research, etc.) go to labeled placeholder pages — that's intentional for this phase, see below.
+Then open **http://localhost:8000/** in a browser.
 
 ## What's built vs. what's a placeholder
 
-**Built (Phase 1):** the full homepage — Hero, Trade Monitor, What CACBUA Does, Trade & Investment Opportunities, Research Topics, Latest News & Insights, Cooperation, Events, a leadership quote, and the Business Brief newsletter section — plus a working header/footer and mobile nav.
-
-**Placeholder only:** About, Research, Cooperation, News & Insights, Events, Resources, and Contact each exist as a real file (so no link 404s) but just say "Phase 2 — page not yet built." None of them were designed this phase, per the approved scope.
+**Built:** the full homepage plus About, Leadership, Research, Publication 001, Cooperation, Opportunities, News & Insights, Events, Resources, Contact, and the shared responsive header/footer.
 
 **Not real yet:** the newsletter signup doesn't send anywhere (there's no provider set up); the 中文 toggle and search icon are visually present but non-functional. All of this is intentional and logged in `docs/content-status.md`, not an oversight.
 
@@ -30,7 +28,7 @@ Then open **http://localhost:8000/** in a browser. Interior nav links (About, Re
 ```
 cacbua-redesign/
 ├── index.php                    — entry point, serves the homepage
-├── about.php, research.php, …   — interior stub pages (Phase 2 placeholders)
+├── about.php, research.php, …   — interior page entry points
 ├── templates/
 │   ├── partials/
 │   │   ├── head.php             — <head>, page <title>, CSS link

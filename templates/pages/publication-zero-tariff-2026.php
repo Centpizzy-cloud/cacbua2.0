@@ -29,7 +29,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="article-meta">
 			<span>Publication 001</span>
 			<span>August 2026</span>
-			<span>Research-based draft — CACBUA institutional review pending</span>
+			<span>Review copy — not approved for publication</span>
 		</div>
 	</div>
 </section>
@@ -106,7 +106,7 @@ require __DIR__ . '/../partials/header.php';
 			<p>The significance of China's zero-tariff initiative should ultimately be measured not simply by the number of tariff lines reduced, but by whether African enterprises can increase competitive, value-added exports to the Chinese market.</p>
 			<p>African institutions, trade organizations, and businesses can use this period to strengthen export readiness, market intelligence, and direct commercial relationships. CACBUA can contribute by supporting access to reliable information and creating channels for dialogue, understanding, and cooperation between institutions and businesses across China and Africa.</p>
 		</div>
-		<p style="font-size:13px;color:var(--slate)">This is CACBUA's own institutional perspective, pending formal review — it is not a claim that CACBUA has facilitated any specific trade, investment, or government policy.</p>
+		<p style="font-size:13px;color:var(--slate)">This section presents a proposed CACBUA institutional perspective for review. It does not claim that CACBUA facilitated any specific trade, investment, or government policy.</p>
 
 		<h2 class="section-num">Sources &amp; further reading</h2>
 		<div class="source-group">
@@ -131,7 +131,7 @@ require __DIR__ . '/../partials/header.php';
 				<li>Section 5 ("From market access to market readiness") and Section 6 ("CACBUA perspective") are CACBUA's own analysis and recommendations, not statistics drawn from the sources above.</li>
 			</ul>
 		</div>
-		<p style="font-size:13px;color:var(--slate)">Facts checked against the sources above on 26 August 2026. This publication is a research-based draft pending formal CACBUA institutional review and approval before public release.</p>
+		<p style="font-size:13px;color:var(--slate)">Facts checked against the sources above on 26 August 2026. Review copy; not approved for public release.</p>
 
 	</div>
 </section>
@@ -144,6 +144,7 @@ require __DIR__ . '/../partials/header.php';
 		</div>
 		<div class="button-group">
 			<a class="button button-primary" href="research.php">Back to Research</a>
+			<a class="button button-ghost-dark" href="resources.php">Browse Resources</a>
 			<a class="button button-ghost-dark" href="opportunities.php#market-access">Explore market-access opportunities</a>
 			<a class="button button-ghost-dark" href="cooperation.php">Discuss cooperation</a>
 		</div>

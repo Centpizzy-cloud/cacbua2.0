@@ -52,11 +52,6 @@ require __DIR__ . '/../partials/header.php';
 				<article><span class="num">0<?php echo (int) ( $i + 1 ); ?></span><div><h3><?php echo htmlspecialchars( $step ); ?></h3></div></article>
 			<?php endforeach; ?>
 		</div>
-		<div class="content-placeholder-card" style="margin-top:26px">
-			<span class="content-status">Client evidence required</span>
-			<h3>Verified case studies and partner directory</h3>
-			<p>CACBUA must approve roles, outcomes, dates, organization names, and display permission before any partner examples can be shown here.</p>
-		</div>
 	</div>
 </section>
 

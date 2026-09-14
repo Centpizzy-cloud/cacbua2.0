@@ -24,8 +24,6 @@ $header_variant = $header_variant ?? 'transparent';
 		</nav>
 
 		<div class="nav-utility">
-			<button class="search-toggle" type="button" aria-label="Search CACBUA">🔍</button>
-			<a class="lang-link" href="#" aria-label="中文版本（Phase 2）">中文</a>
 			<a class="partner-link" href="contact.php">Partner With Us</a>
 			<button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav" data-menu-open>☰</button>
 		</div>
@@ -44,7 +42,6 @@ $header_variant = $header_variant ?? 'transparent';
 		<li><a href="news.php">News &amp; Insights</a></li>
 		<li><a href="events.php">Events</a></li>
 		<li><a href="resources.php">Resources</a></li>
-		<li><a class="lang-link" href="#" aria-label="中文版本（Phase 2）">中文</a></li>
 		<li><a href="contact.php">Partner With Us</a></li>
 	</ul>
 </div>
