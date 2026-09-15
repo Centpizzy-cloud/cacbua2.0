@@ -24,7 +24,7 @@
 		<div>
 			<h4>Contact</h4>
 			<ul>
-				<li><a href="mailto:contact@cacbua.com">contact@cacbua.com</a></li>
+				<li><a href="mailto:contact@cacbua.org">contact@cacbua.org</a></li>
 				<li><a href="https://wa.me/8613472608073">+86 13472608073</a></li>
 				<li><a href="contact.php">Contact page</a></li>
 			</ul>

@@ -8,6 +8,7 @@
  * See content/history-data.php and docs/content-status.md.
  */
 $history = require __DIR__ . '/../../content/history-data.php';
+$engagement_areas = require __DIR__ . '/../../content/engagement-areas.php';
 $page_title = 'About — CACBUA';
 $header_variant = 'solid';
 require __DIR__ . '/../partials/head.php';
@@ -18,7 +19,20 @@ require __DIR__ . '/../partials/header.php';
 		<p class="breadcrumbs"><a href="index.php">Home</a> › About</p>
 		<p class="eyebrow light">Our institution</p>
 		<h1>About CACBUA</h1>
-		<p class="interior-lead">CACBUA is a China–Africa association supporting evidence-led policy interpretation, institutional cooperation, and practical cross-border engagement.</p>
+		<p class="interior-lead">CACBUA is a non-governmental, non-profit-oriented and non-partisan association working to strengthen practical cooperation between China and Africa.</p>
+	</div>
+</section>
+
+<section class="section institutional-intro">
+	<div class="container institutional-intro-grid">
+		<div>
+			<p class="eyebrow">Our role</p>
+			<h2>A bridge for structured cooperation</h2>
+		</div>
+		<div>
+			<p>CACBUA connects governments, private-sector organizations, researchers, educators, and civil-society actors around shared economic and social priorities.</p>
+			<p>Its strategic role is to complement formal engagement through trusted dialogue, institutional relationships, practical knowledge exchange, and people-to-people connection.</p>
+		</div>
 	</div>
 </section>
 
@@ -66,9 +80,28 @@ require __DIR__ . '/../partials/header.php';
 <section class="section soft">
 	<div class="container">
 		<div class="topic-grid">
-			<article class="topic-card"><p class="eyebrow">Mission</p><h3>Connect institutions with opportunity</h3><p>Support informed, practical engagement across China–Africa policy, trade, research, and exchange.</p></article>
-			<article class="topic-card"><p class="eyebrow">Vision</p><h3>Stronger practical cooperation</h3><p>A more connected institutional environment in which knowledge can lead to responsible action.</p></article>
-			<article class="topic-card"><p class="eyebrow">Values</p><h3>Evidence, trust, and collaboration</h3><p>Clear sources, credible relationships, mutual understanding, and accountable cooperation.</p></article>
+			<article class="topic-card"><p class="eyebrow">Mission</p><h3>Advance shared prosperity</h3><p>Empower members and stakeholders through strategic collaboration grounded in equality, mutual respect, and practical development priorities.</p></article>
+			<article class="topic-card"><p class="eyebrow">Vision</p><h3>A connected development ecosystem</h3><p>Build a multilateral network that advances public service, research, sustainable investment, talent, dialogue, and people-to-people ties.</p></article>
+			<article class="topic-card"><p class="eyebrow">Approach</p><h3>Trust, knowledge, and responsible action</h3><p>Combine structured dialogue with research, institutional connection, and accountable cooperation across both regions.</p></article>
+		</div>
+	</div>
+</section>
+
+<section class="section" id="engagement">
+	<div class="container">
+		<div class="section-heading">
+			<p class="eyebrow">Areas of engagement</p>
+			<h2>Six connected priorities</h2>
+			<p>CACBUA organizes its broad institutional mandate into a focused set of themes for cooperation, research, and practical engagement.</p>
+		</div>
+		<div class="engagement-grid">
+			<?php foreach ( $engagement_areas as $i => $area ) : ?>
+				<article class="engagement-card" id="<?php echo htmlspecialchars( $area['slug'] ); ?>">
+					<span class="num"><?php echo sprintf( '%02d', $i + 1 ); ?></span>
+					<h3><?php echo htmlspecialchars( $area['title'] ); ?></h3>
+					<p><?php echo htmlspecialchars( $area['desc'] ); ?></p>
+				</article>
+			<?php endforeach; ?>
 		</div>
 	</div>
 </section>

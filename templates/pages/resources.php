@@ -1,5 +1,6 @@
 <?php
 $page_title = 'China–Africa Resource Hub — CACBUA';
+$engagement_areas = require __DIR__ . '/../../content/engagement-areas.php';
 $header_variant = 'solid';
 require __DIR__ . '/../partials/head.php';
 require __DIR__ . '/../partials/header.php';
@@ -72,6 +73,27 @@ require __DIR__ . '/../partials/header.php';
 						</div>
 					</div>
 				</article>
+			</div>
+		</div>
+	</section>
+
+	<section class="section resource-subjects">
+		<div class="container">
+			<div class="section-heading-row">
+				<div class="section-heading">
+					<p class="eyebrow">Explore by subject</p>
+					<h2>Resources across CACBUA’s engagement areas</h2>
+					<p>Move from a priority theme to related research, market intelligence, events, and cooperation pathways.</p>
+				</div>
+				<a class="button button-ghost-dark" href="research.php#topics">Browse research themes</a>
+			</div>
+			<div class="engagement-grid engagement-grid-compact">
+				<?php foreach ( $engagement_areas as $i => $area ) : ?>
+					<a class="engagement-card" href="about.php#<?php echo htmlspecialchars( $area['slug'] ); ?>">
+						<span class="num"><?php echo sprintf( '%02d', $i + 1 ); ?></span>
+						<h3><?php echo htmlspecialchars( $area['title'] ); ?></h3>
+					</a>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</section>

@@ -29,14 +29,14 @@ Governance log for every homepage section. Labels: `VERIFIED / READY`, `CACBUA E
 | — | Research — Country Focus / Nigeria Country Profile / publication detail sub-pages | Not built (deferred) | Production has these as much larger separate features linked from Research. Out of scope for this pass — flagging so they aren't mistaken for finished. |
 | — | About (full page, `about.php`) | Mixed — see rows below | Built Aug 26, 2026 — no longer a Phase 2 stub. |
 | — | About — "What CACBUA does" (operating-model diagram + sector ticker) | CACBUA EXISTING CONTENT | Updated Aug 26, 2026 — restored to match the real, already-shipped `cacbua-model` diagram and `sector-ticker` marquee from production's CSS (confirmed by reading the actual source, not guessed). An earlier pass had simplified this to a plain list to avoid over-building; since these components are already live in production, reusing them isn't over-building, it's matching what CACBUA already has. |
-| — | About — Mission / Vision / Values | CACBUA EXISTING CONTENT | Reused verbatim from production. |
+| — | About — institution / mission / vision / strategic role | CACBUA INSTITUTIONAL CATALOGUE — CLIENT VERIFICATION REQUIRED | Concise web copy derived from the organization-supplied catalogue. It describes CACBUA’s stated positioning and does not independently establish legal status or outcomes. |
 | — | About — Audiences (4 groups) | CACBUA EXISTING CONTENT | Reused verbatim from production. |
-| — | About — Leadership and governance | CLIENT CONTENT REQUIRED | Honest placeholder — no bios exist to reuse; same gap flagged in production. |
+| — | About — Leadership | Mixed | Links to the expanded Founder page. Identity, portrait, and quote are existing content; catalogue-derived biography remains founder-approval-required. |
 | — | About — "Our history" timeline (16 milestones) | CACBUA EXISTING CONTENT | Same real event archive as `content/events-data.php`, oldest to newest. 7 of the 16 items link back to their matching event anchor on `events.php` — verified the anchors used are a subset of the real event slugs. |
 | — | Cooperation (full page, `cooperation.php`) | Mixed — see rows below | Built Aug 26, 2026 — no longer a Phase 2 stub. |
 | — | Cooperation — 3 audience pathways (Membership / Institutional partnerships / Research & advisory) | CACBUA EXISTING CONTENT | Reused verbatim from production; each card links to `contact.php`. |
 | — | Cooperation — "How cooperation works" (5 steps) | CACBUA EXISTING CONTENT | Reused verbatim (Discover/Assess/Agree/Deliver/Review) — no descriptive text was added beyond the single-word labels in the source, to avoid inventing content that isn't there. |
-| — | Cooperation — case studies / partner directory | CLIENT EVIDENCE REQUIRED | Honest placeholder — same gap flagged in production; no partner examples invented. |
+| — | Cooperation — six engagement themes | CACBUA INSTITUTIONAL CATALOGUE — CLIENT VERIFICATION REQUIRED | Ten catalogue sectors consolidated into six usable web themes. No partner examples, logos, or case studies were added. |
 | — | News & Insights (full page, `news.php`) | CACBUA EXISTING CONTENT | Built Aug 26, 2026 — no longer a Phase 2 stub. Banner (Mex Export, Sept 2023) and all 3 cards (Home Appliance Expo, Nigeria/Shanghai Trade Office, Bizwise Opportunity) describe real, previously-verified events already in `content/events-data.php`; each links to its matching event anchor on `events.php`. Homepage's existing "Latest News" cards already linked to `news.php`, so no homepage change was needed. |
 | — | Contact (full page, `contact.php`) | Mixed — see rows below | Built Aug 26, 2026 — no longer a Phase 2 stub. |
 | — | Contact — inquiry-type labels (4) | CACBUA EXISTING CONTENT | Reused verbatim from production; cosmetic routing labels only, no form to route into (see below). |
@@ -45,8 +45,10 @@ Governance log for every homepage section. Labels: `VERIFIED / READY`, `CACBUA E
 | — | Contact — office hours | VERIFIED / READY | Client confirmed Monday–Friday, 9:00 AM–5:00 PM (Shanghai local time) on Sep 13, 2026. |
 | — | Contact — privacy wording / response details | CLIENT CONTENT REQUIRED | Expected response time, privacy wording, and inquiry-routing owners still require confirmation. |
 | — | Resources — full interior page | VERIFIED / READY | Built as a practical gateway to existing CACBUA research, Publication 001, opportunities, Trade Monitor, events, cooperation, and contact access. No unapproved downloads, guides, reports, or statistics were invented. Future resource formats remain tracked internally and are not shown as empty public items. |
-| — | 中文 (Chinese language toggle) | CLIENT CONTENT REQUIRED (deferred) | Nav link present per the approved navigation spec, but points nowhere yet — full bilingual content is a distinctly separate, larger effort not scoped into Phase 1. |
-| — | Global site search | CLIENT CONTENT REQUIRED (deferred) | Search icon present in the header per spec, non-functional — there's no content index yet to search against. |
+| — | Founder biography | FOUNDER APPROVAL REQUIRED | Concise biography derived from the CACBUA Institutional Catalogue and stored with explicit source/status metadata in `content/founder-data.php`. Preferred name, title, NIDO role, dates, representation claims, and public-display boundaries require founder confirmation. |
+| — | Engagement taxonomy | CLIENT VERIFICATION REQUIRED | Six themes in `content/engagement-areas.php`, consolidated from the catalogue’s ten sectors and used across Homepage, About, Research, Cooperation, and Resources. |
+| — | Institutional milestones, 2019–2025 | Mixed — see structured data | Catalogue milestones stored in `content/institutional-milestones.php` with a source and verification status per record. Sensitive and catalogue-only claims are not rendered publicly. |
+| — | 中文 / global site search | CLIENT CONTENT REQUIRED (deferred) | Removed from the client-preview navigation until real translated content and a working search index exist. |
 
 ## What this phase deliberately did NOT do
 
@@ -56,4 +58,4 @@ Per the approved brief's explicit "do not overbuild" instruction:
 - No Mailchimp or other newsletter provider integration.
 - No new WordPress plugins.
 - No production deployment or changes to `cacbua.org`, its database, `cacbua-current-snapshot`, or any baseline files.
-- No full interior-page redesigns beyond the homepage (About/Research/Cooperation/News/Events/Resources/Contact are placeholder stubs only).
+- No public catalogue-only milestones, partner claims, government relationships, licensing claims, or claimed outcomes without verification.

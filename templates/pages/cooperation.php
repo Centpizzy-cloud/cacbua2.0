@@ -7,6 +7,7 @@
  * placeholder rather than fabricated examples. See content/cooperation-data.php.
  */
 $coop = require __DIR__ . '/../../content/cooperation-data.php';
+$engagement_areas = require __DIR__ . '/../../content/engagement-areas.php';
 $page_title = 'Cooperation — CACBUA';
 $header_variant = 'solid';
 require __DIR__ . '/../partials/head.php';
@@ -18,6 +19,26 @@ require __DIR__ . '/../partials/header.php';
 		<p class="eyebrow light">Membership and partnerships</p>
 		<h1>Build practical China–Africa cooperation</h1>
 		<p class="interior-lead">CACBUA brings institutions, industry, and researchers together around clearly defined policy, trade, investment, and cultural initiatives.</p>
+	</div>
+</section>
+
+<section class="section soft" id="engagement-areas">
+	<div class="container">
+		<div class="section-heading">
+			<p class="eyebrow">Cooperation themes</p>
+			<h2>Where institutions can work together</h2>
+			<p>Six connected areas bring CACBUA’s economic, technical, social, and people-to-people priorities into a practical cooperation framework.</p>
+		</div>
+		<div class="engagement-grid">
+			<?php foreach ( $engagement_areas as $i => $area ) : ?>
+				<a class="engagement-card" href="contact.php?inquiry=partnership#contact-options">
+					<span class="num"><?php echo sprintf( '%02d', $i + 1 ); ?></span>
+					<h3><?php echo htmlspecialchars( $area['title'] ); ?></h3>
+					<p><?php echo htmlspecialchars( $area['desc'] ); ?></p>
+					<strong>Discuss cooperation →</strong>
+				</a>
+			<?php endforeach; ?>
+		</div>
 	</div>
 </section>
 

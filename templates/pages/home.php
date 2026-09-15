@@ -15,6 +15,7 @@ require __DIR__ . '/../../templates/partials/header.php';
 <?php require __DIR__ . '/../sections/hero.php'; ?>
 <?php require __DIR__ . '/../sections/trade-monitor.php'; ?>
 <?php require __DIR__ . '/../sections/what-cacbua-does.php'; ?>
+<?php require __DIR__ . '/../sections/engagement-overview.php'; ?>
 <?php require __DIR__ . '/../sections/opportunities.php'; ?>
 <?php require __DIR__ . '/../sections/research-topics.php'; ?>
 <?php require __DIR__ . '/../sections/latest-news.php'; ?>

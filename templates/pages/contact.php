@@ -70,9 +70,9 @@ require __DIR__ . '/../partials/header.php';
 				<span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7.2 3.5 10 7.8 8.2 10c1.2 2.6 3.2 4.6 5.8 5.8l2.2-1.8 4.3 2.8c.3.2.5.6.4 1-.5 2.3-2.3 3.5-4.7 3.2C9.8 19.2 4.8 14.2 4 7.8 3.7 5.4 4.9 3.6 7.2 3.1c.4-.1.8.1 1 .4Z"/></svg></span>
 				<div><p class="contact-label">Phone</p><h3>+86 136 6150 1097</h3><p>Call CACBUA directly during office hours.</p><strong>Call now →</strong></div>
 			</a>
-			<a class="contact-channel-card contact-channel-link" href="mailto:contact@cacbua.com">
+			<a class="contact-channel-card contact-channel-link" href="mailto:contact@cacbua.org">
 				<span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span>
-				<div><p class="contact-label">Email</p><h3>contact@cacbua.com</h3><p>Send a written inquiry or supporting documents.</p><strong>Email us →</strong></div>
+				<div><p class="contact-label">Email</p><h3>contact@cacbua.org</h3><p>Send a written inquiry or supporting documents.</p><strong>Email us →</strong></div>
 			</a>
 			<article class="contact-channel-card office-hours-card">
 				<span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>

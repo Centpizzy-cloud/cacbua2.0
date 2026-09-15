@@ -27,7 +27,7 @@ require __DIR__ . '/../partials/header.php';
 		<div class="section-heading">
 			<p class="eyebrow">Browse by topic</p>
 			<h2>Research areas</h2>
-			<p>The six established CACBUA subject areas are retained as research topics.</p>
+			<p>Six connected themes frame CACBUA’s research, policy analysis, and knowledge-exchange priorities.</p>
 		</div>
 		<div class="topic-grid">
 			<?php foreach ( $topics as $i => $t ) : ?>

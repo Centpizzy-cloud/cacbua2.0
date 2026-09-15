@@ -20,7 +20,7 @@ $schema_graph = array(
 		'@type' => 'Organization', '@id' => $seo_origin . '/#organization',
 		'name' => 'CACBUA', 'alternateName' => 'The World and Africa Cross-Border United Association',
 		'url' => $seo_origin . '/', 'logo' => $seo_origin . '/assets/images/approved/brand/cacbua-logo.jpg',
-		'email' => 'contact@cacbua.com', 'telephone' => '+86 136 6150 1097',
+		'email' => 'contact@cacbua.org', 'telephone' => '+86 136 6150 1097',
 	),
 	array('@type' => 'WebSite', '@id' => $seo_origin . '/#website', 'url' => $seo_origin . '/', 'name' => 'CACBUA', 'publisher' => array('@id' => $seo_origin . '/#organization'), 'inLanguage' => 'en'),
 );

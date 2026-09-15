@@ -9,28 +9,28 @@
 return array(
 	'index.php' => array(
 		'title' => 'China–Africa Trade, Investment & Cooperation | CACBUA',
-		'description' => 'CACBUA connects China and Africa through trade and investment insight, policy research, market-access guidance, events, and institutional cooperation.',
+		'description' => 'CACBUA connects China and Africa through trade, investment, technology, health, agriculture, research, cultural exchange, and institutional cooperation.',
 		'canonical' => '/', 'type' => 'WebPage',
 		'image' => '/assets/images/approved/hero/hero-web-1200.jpg',
 		'breadcrumbs' => array(),
 	),
 	'about.php' => array(
 		'title' => 'About CACBUA | China–Africa Cooperation',
-		'description' => 'Learn how CACBUA supports research, trade and investment insight, institutional cooperation, and knowledge exchange between China and Africa.',
+		'description' => 'Learn how CACBUA serves as a bridge for China–Africa trade, investment, research, technology, health, agriculture, cultural exchange, and cooperation.',
 		'canonical' => '/about/', 'type' => 'AboutPage',
 		'image' => '/assets/images/approved/hero/hero-web-1200.jpg',
 		'breadcrumbs' => array('About' => '/about/'),
 	),
 	'founder.php' => array(
 		'title' => 'Hon. Geoffrey Okpozae, Founder & President | CACBUA',
-		'description' => 'Meet Hon. Geoffrey Okpozae, Founder and President of CACBUA, and read his leadership vision for informed China–Africa economic cooperation.',
+		'description' => 'Meet Hon. Geoffrey Okpozae and explore his diaspora leadership, economic-diplomacy focus, and vision for responsible China–Africa cooperation.',
 		'canonical' => '/leadership/', 'type' => 'ProfilePage',
 		'image' => '/assets/images/approved/leadership/geoffrey-okpozae-original.jpeg',
 		'breadcrumbs' => array('About' => '/about/', 'Leadership' => '/leadership/'),
 	),
 	'research.php' => array(
 		'title' => 'China–Africa Research & Policy Analysis | CACBUA',
-		'description' => 'Explore CACBUA research on China–Africa trade, investment policy, market access, industrial cooperation, and cross-border development.',
+		'description' => 'Explore CACBUA research themes spanning China–Africa trade, investment, technology, industry, health, agriculture, education, and cultural exchange.',
 		'canonical' => '/research/', 'type' => 'CollectionPage',
 		'breadcrumbs' => array('Research' => '/research/'),
 	),
@@ -49,7 +49,7 @@ return array(
 	),
 	'cooperation.php' => array(
 		'title' => 'China–Africa Business & Institutional Cooperation | CACBUA',
-		'description' => 'Explore CACBUA pathways for China–Africa membership, business partnerships, institutional cooperation, research, and advisory support.',
+		'description' => 'Explore CACBUA cooperation themes across trade, technology, industry, health, agriculture, water, education, culture, and institutional partnerships.',
 		'canonical' => '/cooperation/', 'type' => 'WebPage',
 		'breadcrumbs' => array('Cooperation' => '/cooperation/'),
 	),

@@ -3,6 +3,7 @@
  * Founder & President — verified identity, role, and legacy-site quote only.
  * Biography and leadership-vision copy remain explicit client placeholders.
  */
+$founder = require __DIR__ . '/../../content/founder-data.php';
 $page_title = 'Founder & President — CACBUA';
 $header_variant = 'solid';
 require __DIR__ . '/../partials/head.php';
@@ -18,10 +19,24 @@ require __DIR__ . '/../partials/header.php';
 				</figure>
 				<div class="founder-intro">
 					<p class="eyebrow light">Bio of Founder</p>
-					<h1>Hon. Geoffrey Okpozae</h1>
-					<p class="founder-role">Founder &amp; President</p>
+					<h1><?php echo htmlspecialchars( $founder['display_name'] ); ?></h1>
+					<p class="founder-role"><?php echo htmlspecialchars( $founder['role'] ); ?></p>
 					<blockquote>&ldquo;Our service is to assist cross border development in both countries!&rdquo;</blockquote>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section founder-biography">
+		<div class="container founder-biography-grid">
+			<div>
+				<p class="eyebrow">Leadership biography</p>
+				<h2>Connecting diaspora leadership with development</h2>
+			</div>
+			<div class="founder-biography-copy">
+				<?php foreach ( $founder['bio'] as $paragraph ) : ?>
+					<p><?php echo htmlspecialchars( $paragraph ); ?></p>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</section>
