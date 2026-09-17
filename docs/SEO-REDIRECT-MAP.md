@@ -11,7 +11,7 @@ Use one-hop server-side redirects. Test every source and destination immediately
 | `https://cacbua.org/cooperation/about/` | `https://cacbua.org/about/` | 301 | About content moves to the top-level About page. |
 | `https://cacbua.org/%e4%b8%ad%e6%96%87/` | `https://cacbua.org/zh/` | REVIEW REQUIRED | Do not redirect until equivalent, approved Chinese content exists. |
 | `https://cacbua.org/upcoming-events/` | `https://cacbua.org/events/` | 301, REVIEW REQUIRED | Activate only after confirming the new archive satisfies both historical and upcoming-event intent. |
-| `https://cacbua.org/resources/` | `/resources/` or `/research/` | REVIEW REQUIRED | Final Resources information architecture and content equivalence are unresolved. |
+| `https://cacbua.org/resources/` | `https://cacbua.org/resources/` | 200 | Keep the URL; replace its content with the completed CACBUA Resource Hub at launch. |
 | `https://cacbua.org/policy-insight/` | `https://cacbua.org/research/` | 301, REVIEW REQUIRED | Activate only after confirming the Research hub preserves the relevant policy content. |
 | `https://cacbua.org/cooperation/` | `https://cacbua.org/cooperation/` | 200 | Keep canonical Cooperation page. |
 | `https://cacbua.org/outlook/` | `https://cacbua.org/leadership/` | 301 | Old Founder content moves to the new Leadership page; activate after biography/content approval. |
